@@ -2,7 +2,7 @@ from glob import glob
 from tkinter import *
 import random
 
-
+#mohamed issa devloper
 def next_turn(row, col):
     global player
     if game_btns[row][col]['text'] == "" and check_winner() == False:
